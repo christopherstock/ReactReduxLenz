@@ -30,7 +30,9 @@ const moveTaskDownReducer = (state, {taskIndex}) => {
 };
 
 function taskListReducer(state = [], action) {
-    console.log(action, 'on state', state);
+
+    if ( false ) console.log(action, 'on state', state);
+
     switch (action.type) {
         case ACTION_TYPES.CREATE_TASK:
             return createTaskReducer(state, action);
