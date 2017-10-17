@@ -3,7 +3,7 @@ const {createStore} = window.Redux;
 const {Provider} = window.ReactRedux;
 
 // specify the application title
-const APPLICATION_TITLE = "React Task List";
+const APPLICATION_TITLE = "React Task List LENZ";
 
 // acclaim debug console and set page title
 console.log(APPLICATION_TITLE);
